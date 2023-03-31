@@ -3,7 +3,9 @@
 - Como requisitado o código que contabiliza as quantidades é o <a href="count_per_month.sql">count_per_month.sql</a>. O resultado dessa query é a seguinte tabela:
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/88164286/229213490-a092f29c-8744-4994-8265-1d259c2997aa.png">
 
-- OBS -> Para chegar a estes valores com as bases passadas no desafio foram utilizadas as seguintes querys:
+### Observações
+- O banco utilizado para executar a atividade foi o MySQL;
+- Para chegar a estes valores com as bases passadas no desafio foram utilizadas as seguintes querys:
 ```sql
 -- Adicionar o campo datetime_approved_cancelled na tabela service_order
 ALTER TABLE service_order ADD datetime_approved_cancelled DATETIME;
