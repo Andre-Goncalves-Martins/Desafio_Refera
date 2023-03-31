@@ -13,8 +13,7 @@ ALTER TABLE service_order ADD datetime_approved_cancelled DATETIME;
 -- Adicionar o campo datetime_first_budget_approved na tabela service_order
 ALTER TABLE service_order ADD datetime_first_budget_approved DATETIME;
 
-
--- Atualizar os campos datetime_execution_budget_approved e datetime_approved_cancelled na tabela service_order
+-- Atualizar os campos datetime_execution_budget_approved, datetime_first_budget_approved e datetime_approved_cancelled na tabela service_order
 UPDATE service_order
 	LEFT JOIN (
 	  SELECT service_order_id,
