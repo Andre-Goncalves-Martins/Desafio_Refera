@@ -1,6 +1,6 @@
 # Desafio_Refera
 
-- O resultado utilizando a consulta do código disponibilizado é a seguinte tabela:
+- Como requisitado o código que contabiliza as quantidades é o <a href="count_per_month.sql">count_per_month.sql</a> é a seguinte tabela:
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/88164286/229213490-a092f29c-8744-4994-8265-1d259c2997aa.png">
 
 - Para chegar a estes valores com as bases passadas no desafio foram utilizadas as seguintes querys:
